@@ -12,13 +12,13 @@ A very simple crawler web app
 ## Endpoints
 ### Crawl
 ```
-http://localhost:3030/crawl/?url=https://www.facebook.com
+http://localhost:3030/crawl/?url=${URL}
 ```
 ### List
 ```
-http://localhost:3030/list/?url=https://www.facebook.com
+http://localhost:3030/list/?url=${URL}
 ```
 ### Count
 ```
-http://localhost:3030/count/?url=https://www.facebook.com
+http://localhost:3030/count/?url=${URL}
 ```
