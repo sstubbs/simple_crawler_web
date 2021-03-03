@@ -1,0 +1,15 @@
+[package]
+name = "simple_crawler_web"
+version = "0.1.0"
+authors = ["Stephen Stubbs <stubbsstephen@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+simple_crawler = { git = "https://github.com/sstubbs/simple_crawler", branch = "main" }
+warp = "0.3.0"
+tokio = { version = "1.2.0", features = ["full"] }
+serde = { version = "1.0.64", features = ["derive"] }
+serde_json = "1.0.64"
+anyhow = "1.0.38"
+parking_lot = "0.11.1"
+log = "0.4.14"
